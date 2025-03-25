@@ -1,0 +1,73 @@
+/* ios-dark.css */
+:root {
+    --background-color: #1c2526;
+    --card-background: #2c2c2e;
+    --text-color: #ffffff;
+    --secondary-text-color: #8e8e93;
+    --accent-color: #ff9500; /* Arancione simile al logo SnapMod */
+    --border-color: #3a3a3c;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+header, footer {
+    background-color: var(--card-background);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.container-fluid {
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--card-background);
+    border: none;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #e68600;
+    border-color: #e68600;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    background-color: #3a3a3c;
+    color: var(--text-color);
+    padding: 0.75rem;
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.2);
+    background-color: #4a4a4c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+p, label {
+    color: var(--secondary-text-color);
+}

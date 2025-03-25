@@ -1,0 +1,13 @@
+/* bootstrap-custom.css */
+.navbar, .modal-content {
+    border-radius: 15px;
+}
+
+.modal-content {
+    background-color: var(--card-background);
+    color: var(--text-color);
+}
+
+.modal-header, .modal-footer {
+    border-color: var(--border-color);
+}
